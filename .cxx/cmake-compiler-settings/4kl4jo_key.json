@@ -1,0 +1,21 @@
+{
+  "gradlePluginVersion": "3.4.0-alpha09",
+  "ndkInstallationFolder": {
+    "path": "C:\\Users\\kimji\\AppData\\Local\\Android\\Sdk\\ndk-bundle"
+  },
+  "ndkSourceProperties": {
+    "map": {
+      "Pkg.Desc": "Android NDK",
+      "Pkg.Revision": "18.1.5063045"
+    }
+  },
+  "args": [
+    "-DANDROID_ABI\u003dx86_64",
+    "-DANDROID_PLATFORM\u003dandroid-16",
+    "-DCMAKE_CXX_FLAGS\u003d",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64",
+    "-DCMAKE_SYSTEM_VERSION\u003d16",
+    "-DCMAKE_ANDROID_NDK\u003d${ANDROID_NDK}"
+  ]
+}
